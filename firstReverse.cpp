@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// receives a string and return a reversed copy of it
 string FirstReverse(string str) { 
   char temp;
   int last_pos = str.length()-1;
@@ -17,6 +18,6 @@ int main() {
   
   string str;
   getline(cin, str);
-  cout << FirstReverse(str);
+  cout << FirstReverse(str) << endl;
   return 0;
 }
